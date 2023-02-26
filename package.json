@@ -1,0 +1,29 @@
+{
+  "name": "coder-social-network-api",
+  "version": "1.0.0",
+  "description": "Mongoose back-end project",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed",
+    "heroku-postbuild": "node utils/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Canadianfaller7/coder-social-network-api.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Canadianfaller7/coder-social-network-api/issues"
+  },
+  "homepage": "https://github.com/Canadianfaller7/coder-social-network-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
